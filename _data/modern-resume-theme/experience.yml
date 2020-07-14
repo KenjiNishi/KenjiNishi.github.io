@@ -1,0 +1,41 @@
+# Experience template
+- layout: modern-resume-theme/left
+  company: Pollux
+  link: https://www.pollux.com.br/
+  job_title: Full-Stack Developer - Estágio
+  dates: (2019)
+  quote: >
+    Tecnologia industrial para linha de montagens, robótica colaborativa, internet industrial, serialização, rastreabilidade, inspeção e testes.
+  description: | # this will include new lines to allow paragraphs
+    Desenvolvimento de HMI’s. Comunicação com sistemas de automação. Integração com sistemas web. 
+    Gerenciamento de bancos-de-dados, sistemas supervisórios e páginas Web. Experiência em **HTML, Javascript, Python, SQL**.
+
+- layout: modern-resume-theme/left
+  company: Checkfone Serviços de Informática
+  #link: https://
+  job_title: Programador - Estágio
+  dates: (2017)
+  quote: >
+    Desenvolvimento de software e hardware para sistemas de entretenimento destinados ao mercado espanhol e leste asiático.
+  description: | 
+    Programação de plataformas de entretenimento e gerenciamento de código legacy. Experiência em **QML, C++**.
+
+- layout: modern-resume-theme/left
+  company: UFSC Joinville
+  #link: https://
+  job_title: Bolsa PIBIC de Iniciação Científica
+  #dates: (2013)
+  quote: >
+    Tema: Análise de posição de robôs paralelos e seriais.
+  description: | 
+    Descrição de diferentes arquiteturas de manipuladores robóticos e métodos de **análise cinemática direta e inversa**.
+
+- layout: modern-resume-theme/left
+  company: UFSC Joinville
+  #link: https://
+  job_title: Bolsa Monitoria
+  #dates: (2013)
+  quote: >
+    Monitor da disciplina “Introdução a programação de computadores”.
+  description: |
+    Tarefas envolvem: auxílio ao docente durante aulas e na correção de trabalhos, auxílio aos discente durante horários de atendimento. Experiência em **Python, C e C++**.

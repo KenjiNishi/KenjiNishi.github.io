@@ -1,0 +1,22 @@
+# Education Template
+- layout: modern-resume-theme/top-middle
+  name: Universidade Federal de Santa Catarina
+  dates: Conclusão em 2020 (prevista) 
+  qualification: BA Engenharia Mecatrônica - Campus Joinville
+  quote: >
+    Curso de conceito 5 no ENADE com foco na interação entre as áreas de programação, software e hardware embarcados, sistemas de controle, acionamentos elétricos, comunicação e robótica.
+  
+  description: | # this will include new lines to allow paragraphs
+    A Engenharia Mecatrônica da [UFSC](https://mecatronica.ufsc.br/), diferente dos cursos pioneiros nessa área – voltados às ciências mecânicas e de produção – apresenta uma proposta contemporânea e voltada aos *novos rumos da engenharia*. 
+    Isso faz-se por uma forte interação entre as áreas de **programação, software e hardware embarcados, sistemas de controle, acionamentos elétricos, comunicação e robótica**. 
+    Estas ciências fazem parte das novas e diversas aplicações eletromecânicas em bens de consumo, indústrias e serviços.
+
+- layout: modern-resume-theme/left
+  name:  University of Sheffield
+  dates: (2014-2015)
+  qualification: Department of Automatic Control and Systems Engineering
+  quote: >
+    Intercâmbio de um ano na Universidade de Sheffield, na Inglaterra, durante o qual tive acesso à todas disciplinas do departamento de engenharia de automação e sistemas.
+  
+  description: | # this will include new lines to allow paragraphs
+    Temas relevantes estudados durante o intercâmbio: **Biomecatrônica, Aprendizado de Máquina, Processamento de Padrões, Processamento Digital de Sinais.**

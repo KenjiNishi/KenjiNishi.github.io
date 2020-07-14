@@ -1,0 +1,6 @@
+<div class="container education-container">
+  <h3>{{ page.education_title | default: "Education" }}</h3>
+  {% for education in site.data.modern-resume-theme.education %}
+    {% include {{ education.layout | default: 'modern-resume-theme/left' | append: ".html" }} item=education %}
+  {% endfor %}
+</div>

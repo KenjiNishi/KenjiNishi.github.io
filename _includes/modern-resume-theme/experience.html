@@ -1,0 +1,6 @@
+<div class="container experience-container">
+  <h3>{{ page.experience_title | default: "Experience" }}</h3>
+  {% for experience in site.data.modern-resume-theme.experience %}
+    {% include {{ experience.layout | default: 'modern-resume-theme/left' | append: ".html" }} item=experience %}
+  {% endfor %}
+</div>

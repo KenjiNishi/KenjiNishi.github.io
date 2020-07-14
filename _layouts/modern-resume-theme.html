@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'pt-br' }}">
+
+{%- include modern-resume-theme/head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include modern-resume-theme/header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include modern-resume-theme/gtm_body.html -%}
+      {%- endif -%}
+
+      {%- include modern-resume-theme/about.html -%}
+
+      {%- if site.data.modern-resume-theme.education.size > 0 -%}
+        {%- include modern-resume-theme/education.html -%}
+      {%- endif -%}
+      
+      {%- if site.data.modern-resume-theme.experience.size > 0 -%}
+        {%- include modern-resume-theme/experience.html -%}
+      {%- endif -%}
+
+       {%- if site.data.modern-resume-theme.courses.size > 0 -%}
+        {%- include modern-resume-theme/courses.html -%}
+      {%- endif -%}
+
+      {%- if site.data.modern-resume-theme.projects.size > 0 -%}
+        {%- include modern-resume-theme/projects.html -%}
+      {%- endif -%}
+
+      {%- if page.more_content -%}
+        {%- include modern-resume-theme/more.html -%}
+      {%- endif -%}
+
+    </div>
+  </main>
+
+  {%- include modern-resume-theme/footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/modern-resume-theme/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>

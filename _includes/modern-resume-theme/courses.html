@@ -1,0 +1,7 @@
+<div class="container courses-container">
+    <h3>{{ page.courses_title | default: "Courses" }}</h3>
+    {% for course in site.data.modern-resume-theme.courses %}
+      {% include {{ course.layout | default: 'modern-resume-theme/left' | append: ".html" }} item=course %}
+    {% endfor %}
+  </div>
+  

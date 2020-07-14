@@ -1,0 +1,9 @@
+<div class="container footer-container">
+  <p>
+    {{ page.my-name | escape }} -
+    <a href="mailto:{{ page.email }}" target="_blank">{{ page.email | escape }}</a>
+    {%- if page.footer_show_references -%}
+      &nbsp;- {{ page.references_title | default: "References on request" }}
+    {%- endif -%}
+  </p>
+</div>

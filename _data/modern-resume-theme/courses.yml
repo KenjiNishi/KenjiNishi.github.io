@@ -1,0 +1,20 @@
+# Courses Template
+- layout: modern-resume-theme/left
+  name: Udemy
+  dates: Concluído em 2020
+  qualification: PLC Programming From Scratch
+  #quote: >
+  #  Curso de controladores lógicos programáveis (PLC).
+  description: | # this will include new lines to allow paragraphs
+    Curso de Controladores Lógicos Programáveis (CLP). Temas abordados: **IOs digitais e analógicas,
+     programação ladder, alarmes, notificações, IHM's (Interface Humano-Máquina), emulações, praticas de design**.
+
+- layout: modern-resume-theme/left
+  name: SENAI Joinville
+  dates: Concluído em 2016
+  qualification: Mecânica de Motocicletas
+  #quote: >
+  description: | # this will include new lines to allow paragraphs
+    Manutenção de sistemas mecânicos automotivos de motocicletas. 
+    **Diagnóstico de falhas e defeitos, reparos nos sistemas eletrônicos 
+    (carga e partida, iluminação e sinalização, ignição, injeção eletrônica e eletrônica embarcada) e mecânicos (motor, transmissão, freios, suspensão e direção, rodas e chassi).**

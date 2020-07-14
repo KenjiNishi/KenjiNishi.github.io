@@ -1,0 +1,6 @@
+<div class="container projects-container">
+  <h3>{{ page.projects_title | default: "Projects" }}</h3>
+  {% for project in site.data.modern-resume-theme.projects %}
+    {% include {{ project.layout | default: 'modern-resume-theme/left' | append: ".html" }} item=project %}
+  {% endfor %}
+</div>
